@@ -1,0 +1,1014 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>ASM</title>
+        <link rel="stylesheet" href="./assets/css/reset.css" />
+        <link rel="stylesheet" href="./assets/css/style.css" />
+        <link rel="stylesheet" href="./assets/css/responsive.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <!-- Header -->
+        <header class="header fixed">
+            <div class="content">
+                <div class="header__inner">
+                    <!-- Logo -->
+                    <a href="#">
+                        <img src="./assets/imgs/logo.svg" alt="" />
+                    </a>
+                    <!-- Nav -->
+                    <nav class="header__list">
+                        <li class="header__item header__item-active">
+                            <a href="#" class="header__link">Home</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="#!" class="header__link">Products</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="#!" class="header__link">Guidlines</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="#!" class="header__link">Review</a>
+                        </li>
+                    </nav>
+                    <!-- Sign In -->
+                    <a href="#!" class="header__btn">Sign In</a>
+                    <!-- Navbar Mobile And Tablet -->
+                    <img src="./assets/imgs/header__bars.svg" alt="" class="header__bars">
+                    <div class="header__overlay"></div>
+                    <nav class="header__mobile">
+                        <li class="header__item-mobile">
+                            <a href="#" class="header__link header__link-mobile">Home</a>
+                        </li>
+                        <li class="header__item-mobile">
+                            <a href="#!" class="header__link header__link-mobile">Products</a>
+                        </li>
+                        <li class="header__item-mobile">
+                            <a href="#!" class="header__link header__link-mobile">Guidlines</a>
+                        </li>
+                        <li class="header__item-mobile">
+                            <a href="#!" class="header__link header__link-mobile">Review</a>
+                        </li>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <!-- Main -->
+        <main>
+            <!-- Hero -->
+            <section class="hero">
+                <div class="content">
+                    <!-- Hero -->
+                    <div class="hero__inner">
+                        <!-- Decor 1 -->
+                        <img src="./assets/imgs/hero_decor_01.svg" alt="" class="hero__decor-1" />
+                        <!-- Hero Content -->
+                        <div class="hero__content">
+                            <h1 class="hero__heading">
+                                Make
+                                <strong class="hero__gradient-text"
+                                    >Management
+                                    <div class="hero__decor-2"></div>
+                                    <div class="hero__decor-3"></div>
+                                    <div class="hero__decor-4"></div>
+                                    <div class="hero__decor-5"></div>
+                                </strong>
+                                Way More Easier Than Ever
+                            <img src="./assets/imgs/hero_decor_01.svg" alt="" class="hero__decor-mobile" />
+                            </h1>
+                            <p class="hero__desc">
+                                The online collaborative management platform to bring more efficiency and performace
+                            </p>
+                            <div class="hero__wrap-cta">
+                                <a href="#!" class="hero__btn">Request Demo</a>
+                                <a href="#!" class="hero__btn">Contact Us</a>
+                            </div>
+                        </div>
+                        <!-- Decor 2 -->
+                        <img src="./assets/imgs/hero_decor_01.svg" alt="" class="hero__decor-1 hero__decor-image-2" />
+                    </div>
+                </div>
+            </section>
+            <!-- Dashboard -->
+            <section class="dashboard">
+                <div class="content">
+                    <div class="dashboard__inner">
+                        <div class="dashboard__body">
+                            <!-- Dashboard decor 1 -->
+                            <img src="./assets/imgs/dashboard-decor-1.svg" alt="" class="dashboard__decor-1">
+                            <!-- Dashboard Menu -->
+                            <div class="dashboard__menu">
+                                <div class="dashboard__header">
+                                    <img loading="lazy" src="./assets/imgs/dashboard-menu.svg" class="dashboard__menu-icon" alt="" />
+                                    <img loading="lazy" src="./assets/imgs/dashboard-icon.svg" class="dashboard__icon" alt="" />
+                                    <p class="dashboard__label">Dashboard</p>
+                                </div>
+                                <h2 class="dashboard__heading">Collections</h2>
+                                <div class="dashboard__list">
+                                    <div class="dashboard__item">
+                                        <div class="dashboard-checkbox"></div>
+                                        School
+                                    </div>
+                                    <div class="dashboard__item">
+                                        <div class="dashboard-checkbox"></div>
+                                        Personal
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Dashboard Task -->
+                            <div class="dashboard__task">
+                                <div class="dashboard__task-wrap">
+                                    <div class="dashboard__row">
+                                        <div class="dashboard__arrow-prev">
+                                            <svg
+                                                width="6"
+                                                height="9"
+                                                viewBox="0 0 6 9"
+                                                fill="none"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                            >
+                                                <path
+                                                    d="M5 1L1 4.5L5 8"
+                                                    stroke="currentColor"
+                                                    stroke-linecap="round"
+                                                    stroke-linejoin="round"
+                                                />
+                                            </svg>
+                                        </div>
+                                        <div class="dashboard__text">School</div>
+                                        <img loading="lazy" src="./assets/imgs/dashboard-doots.svg" class="dashboard__list-doots"></img>
+                                        <img loading="lazy"
+                                            src="./assets/imgs/dashboard-contact-icon.svg"
+                                            class="dashboard__contact"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="dashboard__task-body">
+                                        <div class="dashboard__task-content">
+                                            <p class="dashboard__task-label">
+                                                <img loading="lazy" src="./assets/imgs/dashboard-sort-icon.svg" alt="">
+                                                Sort
+                                            </p>
+                                        <div class="dashboard__task-list">
+                                            <div class="dashboard__task-item">
+                                                <div class="dashboard__check">
+                                                    <svg width="8" height="6" viewBox="0 0 8 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M1 3L3.2 5L7 1" stroke="#9EA1A7" stroke-linecap="round" stroke-linejoin="round"/>
+                                                        </svg>                                                
+                                                </div>
+                                                <div class="dashboard__desc">
+                                                    Finish the  Easay collaboration 
+                                                </div>
+                                            </div>
+                                            <div class="dashboard__task-item">
+                                                <div class="dashboard__check">
+                                                    <svg width="8" height="6" viewBox="0 0 8 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M1 3L3.2 5L7 1" stroke="#9EA1A7" stroke-linecap="round" stroke-linejoin="round"/>
+                                                        </svg>                                                
+                                                </div>
+                                                <div class="dashboard__desc">
+                                                    Do the math for next monday 
+                                                </div>
+                                            </div>
+                                            <div class="dashboard__task-item">
+                                                <div class="dashboard__check">
+                                                    <svg width="8" height="6" viewBox="0 0 8 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M1 3L3.2 5L7 1" stroke="#9EA1A7" stroke-linecap="round" stroke-linejoin="round"/>
+                                                        </svg>                                                
+                                                </div>
+                                                <div class="dashboard__desc">
+                                                    Read the next chapter of the book
+                                                </div>
+                                            </div>
+                                            <div class="dashboard__task-item">
+                                                <div class="dashboard__check">
+                                                    <svg width="8" height="6" viewBox="0 0 8 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M1 3L3.2 5L7 1" stroke="#9EA1A7" stroke-linecap="round" stroke-linejoin="round"/>
+                                                        </svg>                                                
+                                                </div>
+                                                <div class="dashboard__desc">
+                                                    Send the collabaration files to jerusha
+                                                </div>
+                                            </div>
+                                            <div class="dashboard__task-item">
+                                                <div class="dashboard__check">
+                                                    <svg width="8" height="6" viewBox="0 0 8 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M1 3L3.2 5L7 1" stroke="#9EA1A7" stroke-linecap="round" stroke-linejoin="round"/>
+                                                        </svg>                                                
+                                                </div>
+                                                <div class="dashboard__desc">
+                                                    Finish the powerpoint presentation
+                                                </div>
+                                            </div>
+                                            <div class="dashboard__task-item">
+                                                <div class="dashboard__check dashboard__plus">
+                                                    <img loading="lazy" src="./assets/imgs/dashboard-plus-icon.svg" alt="">                                       
+                                                </div>
+                                                <div class="dashboard__desc dashboard__addTask">
+                                                    Add task
+                                                </div>
+                                            </div>
+                                        </div>
+                                        </div>
+                                        <div class="dashboard__daily">
+                                            <p class="dashboard__daily-label">
+                                                Daily task.
+                                            </p>
+                                            <div class="dashboard__immedia">
+                                                <img loading="lazy" src="./assets/imgs/dashboard-img.png" class="dashboard__img" alt="">
+                                                <button class="dashboard__play">
+                                                    <svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M8.42459 4.49991L0.858949 8.94269L0.794206 0.169266L8.42459 4.49991Z" fill="#171717"/>
+                                                        </svg>                                                    
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="dashboard__block">
+                                    <div class="dashboard__block-row">
+                                            <h2 class="dashboard__block-head">
+                                                Collections
+                                            </h2>
+                                            <img loading="lazy" src="./assets/imgs/dashboard-doots.svg" alt="">
+                                    </div>
+                                    <div class="dashboard__block-list">
+                                        <div class="dashboard__block-item">
+                                            <div class="dashboard__block-rectangel"></div>
+                                        <div class="dashboard__block-right">
+                                            <h2 class="dashboard__block-heading">School</h2>
+                                            <p class="dashboard__block-desc">4 task plus tomorrow.</p>
+                                        </div>
+                                        </div>
+                                        <div class="dashboard__block-item">
+                                        <div class="dashboard__block-rectangel"></div>
+                                        <div class="dashboard__block-right">
+                                                <h2 class="dashboard__block-heading">Personal</h2>
+                                                <p class="dashboard__block-desc">1 task plus today.</p>
+                                            </div>
+                                        </div>
+                                        <div class="dashboard__block-item">
+                                            <div class="dashboard__block-rectangel"></div>
+                                        <div class="dashboard__block-right">
+                                            <h2 class="dashboard__block-heading">Design</h2>
+                                            <p class="dashboard__block-desc">3 task plus rewt week.</p>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <!-- Dashboard decor 2 -->
+                                    <img loading="lazy" src="./assets/imgs/dashboard-decor-2.svg" alt="" class="dashboard__decor-2">
+                                    </div>          
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="./assets/imgs/dashboard__mobile.svg" alt="" class="dashboard__mobile"> 
+                </div>
+            </section>
+            <!-- Service -->
+            <section class="service">
+            <div class="content">
+                    <div class="service__inner">
+                        <div class="service__list">
+                            <div class="service__item">
+                                <div class="service__icon">
+                                    <img loading="lazy" src="./assets/imgs/service-report-icon.svg" alt="">
+                                </div>
+                                <h2 class="service__heading">
+                                    Structured Reports
+                                </h2>
+                                <p class="service__desc">
+                                    Sed rhoncus sit sed tellus donec lorem lectus nunc, ornare
+                                </p>
+                            </div>
+                            <div class="service__item">
+                                <div class="service__icon">
+                                    <img loading="lazy" src="./assets/imgs/service-cloud-icon.svg" alt="">
+                                </div>
+                                <h2 class="service__heading">
+                                    Cloud System
+                                </h2>
+                                <p class="service__desc">
+                                    Sed rhoncus sit sed tellus donec lorem lectus nunc, ornare
+                                </p>
+                            </div>
+                            <div class="service__item">
+                                <div class="service__icon">
+                                    <img loading="lazy" src="./assets/imgs/service-support-icon.svg" alt="">
+                                </div>
+                                <h2 class="service__heading">
+                                    24/7 Support
+                                </h2>
+                                <p class="service__desc">
+                                    Sed rhoncus sit sed tellus donec lorem lectus nunc, ornare
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            </section>
+            <!-- Task -->
+            <section class="task">
+                <div class="content">
+                    <div class="task__inner">
+                        <section class="task__content">
+                            <h2 class="task__heading">
+                                Okay, <strong class="task__gradient">Let’s</strong> see D’task in numbers
+                            </h2>
+                            <p class="task__desc">
+                                Powering a productive team means using a powerful tool (and plenty of snacks). From meetings and projects to events and goal setting, D'taak intuitive features give any team the ability to quickly set up and customize workflows for just about anything 
+                            </p>
+                            <div class="task__coundown-list">
+                                <span class="task__coudown-doots">
+                                    <div class="task__coutdown-dott"></div>
+                                    <div class="task__coutdown-dott task__coutdown-dott-active"></div>
+                                    <div class="task__coutdown-dott"></div>
+                                </span>
+                                <div class="task__coundown-item">
+                                    <h3 class="task__number">12M</h3>
+                                    <p class="task__text">Support</p>
+                                </div>
+                                <div class="task__coundown-item">
+                                    <h3 class="task__number">16</h3>
+                                    <p class="task__text">Active User</p>
+                                </div>
+                                <div class="task__coundown-item">
+                                    <h3 class="task__number">7/24</h3>
+                                    <p class="task__text">Languages</p>
+                                </div>
+                            </div>
+                        </section>
+                        <div class="task__image">
+                            <img loading="lazy" src="./assets/imgs/task__image.svg" alt="">
+                                <div class="task__button">
+                                    <h3 class="task__label  ">
+                                        Online Support
+                                    </h3>
+                                    <div class="task__icon">
+                                            <svg width="8" height="10" viewBox="0 0 8 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M8.00048 5.00098L0.500055 9.33036L0.50091 0.670109L8.00048 5.00098Z" fill="#F08D08"/>
+                                            </svg>                                    
+                                    </div>
+                                </div>
+                                <div class="task__button">
+                                    <h3 class="task__label  ">
+                                        Exercitation
+                                    </h3>
+                                    <div class="task__icon">
+                                            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M14 0L9 14L6.5 7.5L0 5L14 0Z" fill="#FD7566"/>
+                                            </svg>                  
+                                    </div>
+                                </div>
+                                <div class="task__button">
+                                    <div class="task__icon">
+                                            <svg width="8" height="10" viewBox="0 0 8 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M8.00048 5.00098L0.500055 9.33036L0.50091 0.670109L8.00048 5.00098Z" fill="#F08D08"/>
+                                            </svg>                                    
+                                    </div>
+                                    <h3 class="task__label  ">
+                                        D’ task
+                                    </h3>
+                                    <img loading="lazy" src="./assets/imgs/task__avatar1.svg" alt="" class="task__avatar">
+                                    <img loading="lazy" src="./assets/imgs/task__avatar2.svg" alt="" class="task__avatar">
+                                </div>
+                                <div class="task__button">
+                                    <h3 class="task__label  ">
+                                        Design
+                                    </h3>
+                                    <div class="task__icon">
+                                            <img loading="lazy" src="./assets/imgs/task__icon.svg" alt="">                          
+                                    </div>
+                                </div>
+                        </div>
+                        <img src="./assets/imgs/task__image-mobile.svg" alt="" class="task__image-mobile">
+                    </div>
+                </div>
+            </section>
+            <!-- Features -->
+            <section class="features">
+                    <div class="features__inner">
+                        <!-- Features Left -->
+                        <div class="features__left">
+                            <div class="features__list-line">
+                                <div class="features__line-item"></div>
+                                <div class="features__line-item"></div>
+                                <div class="features__line-item"></div>
+                                <div class="features__line-item"></div>
+                            </div>
+                            <div class="features__list-time">
+                                <span class="features__time-item">9 am</span>
+                                <span class="features__time-item">10 am</span>
+                                <span class="features__time-item">11 am</span>
+                                <span class="features__time-item">12 am</span>
+                            </div>
+                            <div class="features__button-list">
+                                <!-- Features Media Block 1 -->
+                                <div class="features__media-block">
+                                    <img loading="lazy" src="./assets/imgs/features__avatar.svg" alt="" class="features__avatar">
+                                    <span class="features__title">Component UI</span>
+                                </div>
+                                <!-- Features Media Block 2 -->
+                                <div class="features__media-block">
+                                    <span class="features__title">Create lo-Fidelity Wireframe</span>
+                                </div>
+                                <!-- Features Media Block 3 -->
+                                <div class="features__media-block">
+                                    <span class="features__title">Hi-Fidelity Lending Page</span>
+                                </div>
+                            </div>
+                            <!-- Churn Rish -->
+                            <div class="features__churnrish">
+                                <p class="features__number">
+                                    14%
+                                </p>
+                                <p class="features__text">
+                                    Churn Rish
+                                </p>
+                            </div>
+                        </div>
+                        <!-- Features  Content -->
+                        <section class="features__content">
+                            <h2 class="features__heading">
+                                Features to help your <strong class="features__text-gradient">
+                                    team succeed
+                                </strong>
+                            </h2>
+                            <div class="features__list">
+                                <div class="features__item">
+                                
+                                    <div>
+                                        <h3 class="features__sub-heading">
+                                        Choose a view
+                                    </h3>
+                                    <p class="features__desc">
+                                        Nullam dignssim mauris, dictumst quisque.
+                                    </p>
+                                    </div>
+                                </div>
+                                <div class="features__item">
+                                
+                                    <div>
+                                        <h3 class="features__sub-heading">
+                                            Meet your new butler 
+                                    </h3>
+                                    <p class="features__desc">
+                                        Nullam dignssim mauris, dictumst quisque.
+                                    </p>
+                                    </div>
+                                </div>
+                                <div class="features__item">
+                                    <div>
+                                        <h3 class="features__sub-heading">
+                                        Dive into the details
+                                    </h3>
+                                    <p class="features__desc">
+                                        Nullam dignssim mauris, dictumst quisque.
+                                    </p>
+                                    </div>
+                                </div>
+                                <div class="features__item">
+                                
+                                    <div>
+                                        <h3 class="features__sub-heading">
+                                        Power up
+                                    </h3>
+                                    <p class="features__desc">
+                                        Nullam dignssim mauris, dictumst quisque.
+                                    </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+            </section>
+            <!-- Product -->
+            <section class="product">
+                <div class="product__inner">
+                    <div class="product__top">
+                        <h2 class="product___heading">
+                            Integrated <strong class="product__gradient">designed</strong> for product teams
+                        </h2>
+                        <p class="product__desc">
+                            Exepteur sint occaecat cupidatat non proident, sunt in culpa que official deserunt mollit laborum - semper quis lectus nulla.
+                        </p>
+                        <div class="product__list-action">
+                            <div class="product__action-item">
+                                <img loading="lazy" src="./assets/imgs/product__icon-1.svg" alt="">
+                                <span class="product__text">Quick action</span>
+                            </div>
+                            <div class="product__action-item">
+                                <img loading="lazy" src="./assets/imgs/product__icon-2.svg" alt="">
+                                <span class="product__text">Quick action</span>
+                            </div>
+                            <div class="product__action-item">
+                                <img loading="lazy" src="./assets/imgs/product__icon-3.svg" alt="">
+                                <span class="product__text">Quick action</span>
+                            </div>
+                            <div class="product__action-item">
+                                <img loading="lazy" src="./assets/imgs/product__icon-4.svg" alt="">
+                                <span class="product__text">Quick action</span>
+                            </div>
+                            <div class="product__action-item">
+                                <img loading="lazy" src="./assets/imgs/product__icon-5.svg" alt="">
+                                <span class="product__text">Quick action</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product__bottom hidden">
+                        <!-- Product Dashboard -->
+                        <div class="product__dashboard">
+                            <div class="product__doots">
+                                <div class="product__doot"></div>
+                                <div class="product__doot"></div>
+                                <div class="product__doot"></div>
+                            </div>
+                            <h3 class="product__title">
+                                Dashboard Desktop Design Idea
+                            </h3>
+                            <div class="product__list-choice">
+                                <div class="product__choice-item product__choice-active">
+                                    <div class="product__check"></div>
+                                    <div>
+                                        <h4 class="product__label">
+                                            Create Wireframe
+                                        </h4>
+                                        <p class="product__sub-label">
+                                            #design
+                                        </p>
+                                    </div>
+                                    <div class="product__group-avatar">
+                                        <img loading="lazy" src="./assets/imgs/product__avatar-1.svg" alt="" class="product__avatar-item">
+                                        <img loading="lazy" src="./assets/imgs/product__avatar-2.svg" alt="" class="product__avatar-item">
+                                        <img loading="lazy" src="./assets/imgs/product__avatar-3.svg" alt="" class="product__avatar-item">
+                                    </div>
+                                </div>
+                                <div class="product__choice-item">
+                                    <div class="product__check"></div>
+                                    <div>
+                                        <h4 class="product__label">
+                                            HI-Fidelity
+                                        </h4>
+                                        <p class="product__sub-label">
+                                            #design
+                                        </p>
+                                    </div>
+                                    <div class="product__group-avatar">
+                                        <img loading="lazy" src="./assets/imgs/product__avatar-4.svg" alt="" class="product__avatar-item">
+                                        <img loading="lazy" src="./assets/imgs/product__avatar-5.svg" alt="" class="product__avatar-item">
+                                        <img loading="lazy" src="./assets/imgs/product__avatar-6.svg" alt="" class="product__avatar-item">
+                                    </div>
+                                </div>
+                                <div class="product__choice-item">
+                                    <div class="product__check"></div>
+                                    <div>
+                                        <h4 class="product__label">
+                                            Build Compnent
+                                        </h4>
+                                        <p class="product__sub-label">
+                                            #development
+                                        </p>
+                                    </div>
+                                    <div class="product__group-avatar">
+                                        <img loading="lazy" src="./assets/imgs/product__avatar-7.svg" alt="" class="product__avatar-item">
+                                        <img loading="lazy" src="./assets/imgs/product__avatar-8.svg" alt="" class="product__avatar-item">
+                                        <img loading="lazy" src="./assets/imgs/product__avatar-9.svg" alt="" class="product__avatar-item">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Product Daily -->
+                        <div class="product__daily">
+                            <div class="product__daily-top">
+                                <div class="product__daily-row">
+                                    <div class="product__wrap-check"></div>
+                                    <h4 class="product__title product__title-daily">
+                                        Design Daily task
+                                    </h4>
+                                    <div class="product__doots product__doots-daily">
+                                        <div class="product__doot"></div>
+                                        <div class="product__doot"></div>
+                                        <div class="product__doot"></div>
+                                    </div>
+                                </div>
+                                <p class="product__daily-desc">
+                                    4 task plus tomorrow.
+                                </p>
+                                <div class="product__daily-line"></div>
+                            </div>
+                            <div class="product__daily-bottom">
+                                <div class="product__doots product__doots-bottom">
+                                    <div class="product__doot"></div>
+                                    <div class="product__doot"></div>
+                                    <div class="product__doot"></div>
+                                </div>
+                                <div class="product__daily-wrap">
+                                    <img loading="lazy" src="./assets/imgs/product__daily-1.svg" alt="">
+                                    <div class="product__status">
+                                        <div class="product__title product__title-bottom">
+                                            D’task
+                                        </div>
+                                        <img loading="lazy" src="./assets/imgs/product__daily-map.svg" alt="">
+                                        <div class="product__row-status">
+                                        <div class="product__status-item">
+                                                <p class="product__status-text">
+                                                    Online
+                                                </p>
+                                                <span class="product__users">179 users</span>
+                                        </div>
+                                        <div class="product__status-item">
+                                            <p class="product__status-text">
+                                                Offline
+                                            </p>
+                                            <span class="product__users">394 users</span>
+                                    </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Product Team -->
+                        <div class="product__team">
+                            <div class="product__doots">
+                                <div class="product__doot"></div>
+                                <div class="product__doot"></div>
+                                <div class="product__doot"></div>
+                            </div>
+                            <h4 class="product__title product__title-team">
+                                Team
+                            </h4>
+                            <div class="product__container-avatar">
+                                <div class="product__avatar">
+                                    <img loading="lazy" src="./assets/imgs/product__avatar-10.svg" alt="" class="product__image-avatar">
+                                    <p class="product__name">John Simth</p>
+                                </div>
+                                <div class="product__avatar">
+                                    <img loading="lazy" src="./assets/imgs/product__avatar-11.svg" alt="" class="product__image-avatar">
+                                    <p class="product__name">John Simth</p>
+                                </div>
+                                <div class="product__avatar">
+                                    <img loading="lazy" src="./assets/imgs/product__avatar-12.svg" alt="" class="product__image-avatar">
+                                    <p class="product__name">John Simth</p>
+                                </div>
+                                <div class="product__avatar">
+                                    <img loading="lazy" src="./assets/imgs/product__avatar-13.svg" alt="" class="product__image-avatar">
+                                    <p class="product__name">John Simth</p>
+                                </div>
+                                <div class="product__avatar">
+                                    <img loading="lazy" src="./assets/imgs/product__avatar-14.svg" alt="" class="product__image-avatar">
+                                    <p class="product__name">John Simth</p>
+                                </div>
+                            </div>
+                            <button class="product__team-cta">
+                                Join Now
+                            </button>
+                        </div>
+                    </div>
+                    <img src="./assets/imgs/product__bottom-image.png" alt="" class="product__bottom-mobile">
+                </div>
+            </section>
+            <!-- Picture -->
+            <section class="picture">
+                <div class="picture__inner">
+                    <section class="picture__row">
+                        <h2 class="picture__heading">
+                            From the <strong class="picture__gradient">
+                                big picture
+                            </strong> to every tiny detail, we got you covered.
+                        </h2>
+                        <button class="picture__cta">
+                            Explore Now
+                        </button>
+                    </section>
+                    <div class="picture__bottom">
+                        <div class="picture__list">
+                            <div class="picture__item">
+                                <h3 class="picture__title">
+                                    For developers
+                                </h3>
+                                <p class="picture__desc">
+                                    Exepteur sint occaecat cupidatat non proident, mollit laborum - semper quis lectus nulla.
+                                </p>
+                            </div>
+                            <div class="picture__item">
+                                <h3 class="picture__title">
+                                    For designers
+                                </h3>
+                                <p class="picture__desc">
+                                    Exepteur sint occaecat cupidatat non proident, mollit laborum - semper quis lectus nulla.
+                                </p>
+                            </div>
+                            <div class="picture__item">
+                                <h3 class="picture__title">
+                                    For teams
+                                </h3>
+                                <p class="picture__desc">
+                                    Exepteur sint occaecat cupidatat non proident, mollit laborum - semper quis lectus nulla.
+                                </p>
+                            </div>
+                        </div>
+                        <figure class="picture__immedia">
+                            <img loading="lazy" src="./assets/imgs/picture__image-1.png" alt="" class="picture__image">
+                            <img loading="lazy" src="./assets/imgs/picture__image-2.png" alt="" class="picture__image">
+                            <img loading="lazy" src="./assets/imgs/picture__image-3.png" alt="" class="picture__image">
+                            <img loading="lazy" src="./assets/imgs/picture__image-1.png" alt="" class="picture__image-mobile">
+                            <img loading="lazy" src="./assets/imgs/picture__image-2.png" alt="" class="picture__image-mobile">
+                            <img loading="lazy" src="./assets/imgs/picture__image-3.png" alt="" class="picture__image-mobile">
+                        </figure>
+                        <a href="#!" class="picture__btn-mobile">
+                            Explore Now
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <!-- BLog -->
+            <section class="blog">
+                <div class="blog__inner">
+                   <div class="blog__top">
+                        <h2 class="blog__heading">
+                            <strong class="blog__gradient">Refreshing</strong> news for developers and desigers
+                        </h2>
+                        <div class="blog__card-list">
+                            <!-- Blog Card Item 1 -->
+                            <article class="blog__card-item">
+                                <div class="blog__card-image">
+                                    <img loading="lazy" src="./assets/imgs/blog__card-image1.svg" alt="" class="blog__image">
+                                    <a href="#!" class="blog__cta">
+                                        Product Engineer
+                                    </a>
+                                </div>
+                                <div class="blog__body">
+                                    <h3 class="blog__title">
+                                    The quick brown fox jumped over the lazy dog.
+                                </h3>
+                             </div>
+                            <a href="#!" class="blog__view">
+                                View All                
+                                    <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 4H11M11 4L8 1M11 4L8 7" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>                                                              
+                            </a>
+                            </article>
+                            <!-- Blog Card Item 2 -->
+                            <article class="blog__card-item">
+                                <div class="blog__card-image">
+                                    <img loading="lazy" src="./assets/imgs/blog__card-image2.svg" alt="" class="blog__image">
+                                    <a href="#!" class="blog__cta">
+                                        Desing Engineer
+                                    </a>
+                                </div>
+                                <div class="blog__body">
+                                    <h3 class="blog__title">
+                                    The quick brown fox jumped over the lazy dog.
+                                </h3>
+                            </div>
+                            <a href="#!" class="blog__view">
+                                View All
+                                    <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 4H11M11 4L8 1M11 4L8 7" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>                                    
+                            </a>
+                            </article>
+                            <!-- Blog Card Item 3 -->
+                            <article class="blog__card-item">
+                                <div class="blog__card-image">
+                                    <img loading="lazy" src="./assets/imgs/blog__card-image3.svg" alt="" class="blog__image">
+                                    <a href="#!" class="blog__cta">
+                                        Tutorial Engineer
+                                    </a>
+                                </div>
+                                <div class="blog__body">
+                                    <h3 class="blog__title">
+                                    The quick brown fox jumped over the lazy dog.
+                                </h3>
+                            </div>
+                            <a href="#!" class="blog__view">
+                                View All         
+                                <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 4H11M11 4L8 1M11 4L8 7" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>                            
+                            </a>
+                            </article>
+                        </div>
+                   </div>
+                   <h3 class="blog__label-feedback">
+                    <strong class="blog__label-gradient">Test</strong> monials
+                   </h3>
+                  <div class="blog__bottom">
+                         <div class="blog__feedback-list">
+                        <div class="blog__feedback-item">
+                            <svg width="49" height="33" viewBox="0 0 49 33" fill="none" xmlns="http://www.w3.org/2000/svg" class="blog__quote-icon">
+                                <path d="M33.8963 15.2195C35.5756 14.2002 37.5408 13.7547 39.4955 13.9501C41.4503 14.1455 43.2884 14.9712 44.7327 16.3028C46.1771 17.6343 47.1492 19.3994 47.5026 21.3318C47.8559 23.2642 47.5713 25.2591 46.6917 27.0156C45.812 28.7721 44.385 30.1949 42.6259 31.0694C40.8669 31.9439 38.8711 32.2227 36.9398 31.8637C35.0084 31.5046 33.2462 30.5273 31.9189 29.0791C30.5916 27.6308 29.7712 25.7903 29.5816 23.835C28.9047 19.7483 28.7624 14.8611 30.5398 10.5066C32.4463 5.84186 36.4301 2.1052 43.376 0.556908C43.9542 0.446218 44.5527 0.565065 45.0447 0.888252C45.5367 1.21144 45.8834 1.71355 46.0114 2.28811C46.1394 2.86266 46.0386 3.46449 45.7304 3.96596C45.4221 4.46743 44.9306 4.82911 44.3602 4.97432C38.7413 6.22698 36.0328 9.04087 34.7313 12.219C34.3454 13.1677 34.0705 14.1747 33.8963 15.2195V15.2195Z" fill="currentColor"/>
+                                <path d="M5.28469 15.5618C6.96402 14.5425 8.92927 14.097 10.884 14.2924C12.8387 14.4878 14.6768 15.3135 16.1212 16.6451C17.5655 17.9766 18.5377 19.7417 18.891 21.6741C19.2444 23.6065 18.9597 25.6014 18.0801 27.3579C17.2004 29.1144 15.7734 30.5372 14.0144 31.4117C12.2553 32.2862 10.2596 32.565 8.3282 32.206C6.39684 31.8469 4.6346 30.8696 3.30731 29.4214C1.98002 27.9731 1.15967 26.1326 0.970002 24.1773C0.293144 20.0906 0.150852 15.2034 1.92819 10.8489C3.83472 6.18415 7.81854 2.44748 14.7645 0.899193C15.3426 0.788503 15.9411 0.90735 16.4331 1.23054C16.9251 1.55372 17.2719 2.05583 17.3999 2.63039C17.5279 3.20495 17.4271 3.80677 17.1188 4.30824C16.8105 4.80972 16.3191 5.1714 15.7486 5.3166C10.1297 6.56926 7.42123 9.38315 6.11976 12.5613C5.7338 13.5099 5.45897 14.517 5.28469 15.5618V15.5618Z" fill="currentColor"/>
+                                </svg>
+                            <blockquote class="blog__feedback-desc">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                            </blockquote>
+                            <div class="blog__row">
+                                <img loading="lazy" src="./assets/imgs/blog__avatar-1.svg" alt="" class="blog__avatar">
+                                <div>
+                                    <h3 class="blog__name">
+                                        Markus Barker
+                                    </h3>
+                                    <p class="blog__job">
+                                        Developer
+                                    </p>
+                                </div>
+                                <img loading="lazy" src="./assets/imgs/blog__stars.svg" alt="" class="blog__image-stars">
+                            </div>
+                        </div>
+                        <div class="blog__feedback-item">
+                            <svg width="49" height="33" viewBox="0 0 49 33" fill="none" xmlns="http://www.w3.org/2000/svg" class="blog__quote-icon">
+                                <path d="M33.8963 15.2195C35.5756 14.2002 37.5408 13.7547 39.4955 13.9501C41.4503 14.1455 43.2884 14.9712 44.7327 16.3028C46.1771 17.6343 47.1492 19.3994 47.5026 21.3318C47.8559 23.2642 47.5713 25.2591 46.6917 27.0156C45.812 28.7721 44.385 30.1949 42.6259 31.0694C40.8669 31.9439 38.8711 32.2227 36.9398 31.8637C35.0084 31.5046 33.2462 30.5273 31.9189 29.0791C30.5916 27.6308 29.7712 25.7903 29.5816 23.835C28.9047 19.7483 28.7624 14.8611 30.5398 10.5066C32.4463 5.84186 36.4301 2.1052 43.376 0.556908C43.9542 0.446218 44.5527 0.565065 45.0447 0.888252C45.5367 1.21144 45.8834 1.71355 46.0114 2.28811C46.1394 2.86266 46.0386 3.46449 45.7304 3.96596C45.4221 4.46743 44.9306 4.82911 44.3602 4.97432C38.7413 6.22698 36.0328 9.04087 34.7313 12.219C34.3454 13.1677 34.0705 14.1747 33.8963 15.2195V15.2195Z" fill="currentColor"/>
+                                <path d="M5.28469 15.5618C6.96402 14.5425 8.92927 14.097 10.884 14.2924C12.8387 14.4878 14.6768 15.3135 16.1212 16.6451C17.5655 17.9766 18.5377 19.7417 18.891 21.6741C19.2444 23.6065 18.9597 25.6014 18.0801 27.3579C17.2004 29.1144 15.7734 30.5372 14.0144 31.4117C12.2553 32.2862 10.2596 32.565 8.3282 32.206C6.39684 31.8469 4.6346 30.8696 3.30731 29.4214C1.98002 27.9731 1.15967 26.1326 0.970002 24.1773C0.293144 20.0906 0.150852 15.2034 1.92819 10.8489C3.83472 6.18415 7.81854 2.44748 14.7645 0.899193C15.3426 0.788503 15.9411 0.90735 16.4331 1.23054C16.9251 1.55372 17.2719 2.05583 17.3999 2.63039C17.5279 3.20495 17.4271 3.80677 17.1188 4.30824C16.8105 4.80972 16.3191 5.1714 15.7486 5.3166C10.1297 6.56926 7.42123 9.38315 6.11976 12.5613C5.7338 13.5099 5.45897 14.517 5.28469 15.5618V15.5618Z" fill="currentColor"/>
+                                </svg>
+                            <blockquote class="blog__feedback-desc">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                            </blockquote>
+                            <div class="blog__row">
+                                <img loading="lazy" src="./assets/imgs/blog__avatar-2.svg" alt="" class="blog__avatar">
+                                <div>
+                                    <h3 class="blog__name">
+                                        Markus Barker
+                                    </h3>
+                                    <p class="blog__job">
+                                        Developer
+                                    </p>
+                                </div>
+                                <img loading="lazy" src="./assets/imgs/blog__stars.svg" alt="" class="blog__image-stars">
+                            </div>
+                        </div>
+                        <div class="blog__feedback-item">
+                            <svg width="49" height="33" viewBox="0 0 49 33" fill="none" xmlns="http://www.w3.org/2000/svg" class="blog__quote-icon">
+                                <path d="M33.8963 15.2195C35.5756 14.2002 37.5408 13.7547 39.4955 13.9501C41.4503 14.1455 43.2884 14.9712 44.7327 16.3028C46.1771 17.6343 47.1492 19.3994 47.5026 21.3318C47.8559 23.2642 47.5713 25.2591 46.6917 27.0156C45.812 28.7721 44.385 30.1949 42.6259 31.0694C40.8669 31.9439 38.8711 32.2227 36.9398 31.8637C35.0084 31.5046 33.2462 30.5273 31.9189 29.0791C30.5916 27.6308 29.7712 25.7903 29.5816 23.835C28.9047 19.7483 28.7624 14.8611 30.5398 10.5066C32.4463 5.84186 36.4301 2.1052 43.376 0.556908C43.9542 0.446218 44.5527 0.565065 45.0447 0.888252C45.5367 1.21144 45.8834 1.71355 46.0114 2.28811C46.1394 2.86266 46.0386 3.46449 45.7304 3.96596C45.4221 4.46743 44.9306 4.82911 44.3602 4.97432C38.7413 6.22698 36.0328 9.04087 34.7313 12.219C34.3454 13.1677 34.0705 14.1747 33.8963 15.2195V15.2195Z" fill="currentColor"/>
+                                <path d="M5.28469 15.5618C6.96402 14.5425 8.92927 14.097 10.884 14.2924C12.8387 14.4878 14.6768 15.3135 16.1212 16.6451C17.5655 17.9766 18.5377 19.7417 18.891 21.6741C19.2444 23.6065 18.9597 25.6014 18.0801 27.3579C17.2004 29.1144 15.7734 30.5372 14.0144 31.4117C12.2553 32.2862 10.2596 32.565 8.3282 32.206C6.39684 31.8469 4.6346 30.8696 3.30731 29.4214C1.98002 27.9731 1.15967 26.1326 0.970002 24.1773C0.293144 20.0906 0.150852 15.2034 1.92819 10.8489C3.83472 6.18415 7.81854 2.44748 14.7645 0.899193C15.3426 0.788503 15.9411 0.90735 16.4331 1.23054C16.9251 1.55372 17.2719 2.05583 17.3999 2.63039C17.5279 3.20495 17.4271 3.80677 17.1188 4.30824C16.8105 4.80972 16.3191 5.1714 15.7486 5.3166C10.1297 6.56926 7.42123 9.38315 6.11976 12.5613C5.7338 13.5099 5.45897 14.517 5.28469 15.5618V15.5618Z" fill="currentColor"/>
+                                </svg>
+                            <blockquote class="blog__feedback-desc">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                            </blockquote>
+                            <div class="blog__row">
+                                <img loading="lazy" src="./assets/imgs/blog__avatar-3.svg" alt="" class="blog__avatar">
+                                <div>
+                                    <h3 class="blog__name">
+                                        Markus Barker
+                                    </h3>
+                                    <p class="blog__job">
+                                        Developer
+                                    </p>
+                                </div>
+                                <img loading="lazy" src="./assets/imgs/blog__stars.svg" alt="" class="blog__image-stars">
+                            </div>
+                        </div>
+                         </div>
+                             <div class="blog__group-chervon">
+                                <div class="blog__chervon-item blog__chervon-left">
+                                    <svg width="8" height="15" viewBox="0 0 8 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7 1L1 8L7 14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </div>
+                                <div class="blog__chervon-item blog__chervon-right">
+                                    <svg width="8" height="15" viewBox="0 0 8 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 1L7 8L1 14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </div>
+                            </div>
+                       </div>
+                  </div>
+                  <div class="blog__doots-mobile">
+                    <div class="blog__doot-item"></div>
+                    <div class="blog__doot-item blog__doot-item-active"></div>
+                    <div class="blog__doot-item"></div>
+                  </div>
+                </div>
+            </section>
+         </main>
+         <!-- Footer -->
+         <footer class="footer">
+            <div class="footer__inner">
+                <div class="footer__top">
+                    <img loading="lazy" src="./assets/imgs/logo.svg" alt="" class="footer__logo-top">
+                    <div class="footer__right">
+                        <p class="footer__desc">
+                            Ready to get started?
+                        </p>
+                        <a href="#!" class="footer__cta">
+                            Get Started
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__bottom">
+                    <section class="footer__column-1">
+                        <h2 class="footer__heading">
+                            Subscribe to our newsletter
+                        </h2>
+                        <div class="footer__input-email">
+                            <input type="email" placeholder="Your Email Adreess" class="footer__email-address">
+                            <button class="footer__next-btn">
+                                    <svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 1L6.5 6.5L1 12" stroke="#F9F9F9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>                                    
+                            </button>
+                        </div>
+                        <div class="footer__list-socials">
+                            <div class="footer__social-item">
+                                <img loading="lazy" src="./assets/imgs/footer__fb-icon.svg" alt="">
+                            </div>
+                            <div class="footer__social-item">
+                                <img loading="lazy" src="./assets/imgs/footer__twitter-icon.svg" alt="">
+                            </div>
+                            <div class="footer__social-item">
+                                <img loading="lazy" src="./assets/imgs/footer__linkedin-icon.svg" alt="">
+                            </div>
+                        </div>
+                    </section>
+                    <section class="footer__column-2">
+                        <h2 class="footer__heading">
+                            Services
+                        </h2>
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <a href="#!" class="footer__link">
+                                    Email Marketing
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#!" class="footer__link">
+                                    Campaigns
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#!" class="footer__link">
+                                    Branding
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                               <a href="#!" class="footer__link">
+                                    Online
+                               </a>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="footer__column-3">
+                        <h2 class="footer__heading">
+                            About
+                        </h2>
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <a href="#!" class="footer__link">
+                                    Our Story
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#!" class="footer__link">
+                                    Benefits
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#!" class="footer__link">
+                                    Team
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                               <a href="#!" class="footer__link">
+                                    Careers
+                               </a>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="footer__column-3">
+                        <h2 class="footer__heading">
+                            Help
+                        </h2>
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <a href="#!" class="footer__link">
+                                    FAQs
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#!" class="footer__link">
+                                    Contact Us
+                                </a>
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+                <div class="footer__bottom-mobile">
+                    <img src="./assets/imgs/logo__footer-mobile.svg" alt="">
+                    <div class="footer__block-email">
+                        <input type="email" class="footer__input-mobile" placeholder="Your Email Adreess">
+                        <div class="footer__next-btn-mobile">
+                                <svg width="6" height="9" viewBox="0 0 6 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1.31274 1.20459L4.39418 4.28602L1.31274 7.36746" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>                                
+                        </div>
+                    </div>
+                    <img src="./assets/imgs/header__bars.svg" alt="">
+                </div>
+            </div>
+         </footer>
+         <script src="./js/app.js"></script>
+    </body>
+</html>

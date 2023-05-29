@@ -769,6 +769,10 @@
         max-width: calc(100% - 40px);
     }
 
+    .footer__top {
+        border-bottom: 0;
+    }
+
     .footer__logo-top {
         display: none;
     }

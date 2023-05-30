@@ -310,6 +310,10 @@
         gap: 40px;
         grid-template-columns: 1fr 1fr;
     }
+
+    .footer__input-email {
+        width: 100%;
+    }
 }
 
 /* Mobile */
@@ -364,6 +368,7 @@
 
     .hero__btn {
         min-width: 143px;
+        font-size: 1.2rem;
     }
 
     .hero__decor-mobile {
